@@ -1,0 +1,117 @@
+body {
+  max-width: 650px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url('../img/sunny (3).jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* animation: animate 10s linear delay infinite;    */
+}
+/* @keyframes animate{
+  0%{ background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url('../img/bg.jpg');}
+  25%{background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url('../img/sunny (1).jpg');}
+  57%{background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url('../img/sunny (2).jpg');}
+  100%{background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)),url('../img/sunny (3).jpg');}
+} */
+h1 {
+  color: #c2bfbf;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.main-content{
+    flex-grow: 1;
+}
+header a {
+  /* color: #888888; */
+  color: #a1a19d;
+  text-decoration: none;
+  margin-right: 12px;
+  padding: 5px 0;
+  
+  
+}
+header a:active{
+  border-bottom: 1px solid #ec3a54;
+}
+header{
+    margin-bottom: 50px;
+}
+header a:hover {
+  color: #eb596e;
+  border-bottom: 1px solid #ec3a54;
+}
+.image{
+  width: 250px;
+  height: 250px;
+  background: red;
+  opacity: .9;
+  border: 2px solid #eb596e;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('../img/guurav.jpg') center center;
+}
+.image:hover{
+  opacity: 1;
+}
+
+footer {
+    border-top: 1px solid #ec3a54;
+    color: #888888;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    padding: 16px 0 ;
+}
+p{
+  color: #ada9a9;
+}
+.para-1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #eb596e;
+  word-spacing: 5px;
+
+}
+.head-para{
+  letter-spacing: 1px;
+  font-size: .9rem;
+}
+.para-2{
+  font-family:  sans-serif;
+  font-weight: 500;
+  color: #9b9898;
+  letter-spacing: 1px;
+
+}
+.side-para{
+  color: #fa5e76;
+}
+.form-a input{
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #888;
+  outline: none;
+  background: #e7e6e1;
+}
+.form-a button{
+  padding: 8px;
+  border: 1px solid #333;
+  background: #ec3a54;
+  color: #141414;
+  cursor: pointer;
+  outline: none;
+  letter-spacing: 1px;
+  transition: .4s;
+}
+.form-a button:hover{
+  background: #f56077;
+  color: rgb(0, 0, 0);
+  
+}

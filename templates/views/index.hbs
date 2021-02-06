@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/app.js"></script>
+    <title>Wether-App</title>
+</head>
+
+<body>
+    <header class="main-content">
+        {{>header}}
+        <p class="head-para">Enter the city name that you  want to check weather.</p>
+        <form class="form-a" action="/" method="POST">
+            <input type="text" placeholder="Location" name="address" id="location">
+            <button type="submit">Search</button>
+        </form>
+        <p class="para-1">{{forecast}}</p>
+        <p class="para-2">{{location}}</p>
+
+    </header>
+    {{>footer}}
+</body>
+
+</html>
