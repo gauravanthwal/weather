@@ -7,6 +7,7 @@ const bodyParser = require("body-parser");
 
 const geoCode = require("./utils/geocode.js");
 const forecast = require("./utils/forecast.js");
+const port = process.env.PORT || 3000;
 
 const staticPath = path.join(__dirname, "../public");
 const tempPath = path.join(__dirname, "../templates/views");
@@ -90,6 +91,6 @@ app.get("*", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("server is running at port 3000");
 });
